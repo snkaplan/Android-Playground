@@ -2,7 +2,6 @@ package com.ska.coroutinedemo1
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import android.util.Log
 import androidx.databinding.DataBindingUtil
 import com.ska.coroutinedemo1.databinding.ActivityMainBinding
 import kotlinx.coroutines.CoroutineScope
@@ -48,8 +47,20 @@ class MainActivity : AppCompatActivity() {
                 * Produce builder  is for coroutines which stream of elements. This builder returns an instance of ReceiveChannel.
                     * RunBlocking builder launches a coroutine with blocking current thread. And it returns a result we can directly use.(Type T)
              */
-            CoroutineScope(Dispatchers.IO).launch {
-                downloadUserData()
+            // This is the best practice start in main dispatcher then change to IO in suspend functions
+            CoroutineScope(Dispatchers.Main).launch {
+                // downloadUserData()
+                /**
+                 * Unstructured concurrency example
+                 */
+                //binding.tvUserMessage.text = UnstructuredUserDataManager().getTotalUserCount().toString()
+                /**
+                 * Structured concurrency example.
+                 * Structured concurrency guarantees to complete all the works started by coroutines.
+                 * Guarantees the notify caller when exceptions occurs.
+                 * Provides the cancel all jobs in structured concurrency.
+                 */
+                binding.tvUserMessage.text = StructuredUserDataManager().getTotalUserCount().toString()
             }
         }
     }
