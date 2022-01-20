@@ -1,0 +1,25 @@
+
+j
+:app/src/main/java/com/sk/roomdemo/db/SubscriberDatabase.kt,3/3/3301eefddc704f94a3f27e7a43a38dbc2ad3f5a8
+o
+?app/src/main/java/com/sk/roomdemo/SubscriberViewModelFactory.kt,9/c/9cfcc17f97a8ff27020fa467cae1b6af2fb1c6ab
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+Z
+*app/src/main/java/com/sk/roomdemo/Event.kt,5/9/59f444bdb562299370d649f0448065283efd413d
+a
+1app/src/main/java/com/sk/roomdemo/MainActivity.kt,a/d/ade4308118088745ee00943b57212f4679a91f82
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+b
+2app/src/main/java/com/sk/roomdemo/db/Subscriber.kt,5/8/58968c7839998eef12054fc3ca021a1a845d4e2f
+e
+5app/src/main/java/com/sk/roomdemo/db/SubscriberDAO.kt,3/0/30e90d6e3726bfeae081d1a8cbc23bac594fa2f9
+t
+Dapp/src/main/java/com/sk/roomdemo/repository/SubscriberRepository.kt,1/5/155a9a7d360aa902bb455066067e5b84612af344
+h
+8app/src/main/java/com/sk/roomdemo/SubscriberViewModel.kt,1/3/133c2d0c162c7de7e828b18bb88be137f9702676
+r
+Bapp/src/main/java/com/sk/roomdemo/SubscriberRecyclerViewAdapter.kt,4/4/442bdbbd586a7b816aa37794577eb7ac5829fdeb
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
