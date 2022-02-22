@@ -1,0 +1,19 @@
+
+h
+8app/src/main/java/com/sk/retrofitdemo/data/AlbumsItem.kt,6/a/6a8cca5029d68a96619ccf978df90e7e14a2bc65
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+i
+9app/src/main/java/com/sk/retrofitdemo/RetrofitInstance.kt,1/e/1e7ce7ea90608cacc7d3aade9208fdb25b0d124a
+e
+5app/src/main/java/com/sk/retrofitdemo/AlbumService.kt,5/2/527fe2fa590716fff5537ad3997d2f77e5d3d1c5
+e
+5app/src/main/java/com/sk/retrofitdemo/MainActivity.kt,d/2/d24cc245b0e584fa3c62ebdd2f1a77a6134455ed
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
